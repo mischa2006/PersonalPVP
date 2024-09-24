@@ -1,0 +1,17 @@
+name: PersonalPVP
+version: '1.0'
+main: mischa.PersonalPVP.PersonalPVP
+api-version: '1.21'
+commands:
+    togglepvp:
+        description: 'Toggles PVP'
+        usage: '/togglepvp <on/off>'
+    reloadPVP:
+        description: 'Reloads config'
+        usage: '/reloadPVP'
+    pvphelp:
+        description: 'Shows help'
+        usage: '/pvphelp'
+    pvp:
+        description: 'Shows if a player has pvp enabled or not'
+        usage: '/pvp <player name>'
